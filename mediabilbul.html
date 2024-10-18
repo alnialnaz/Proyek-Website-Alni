@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Pembelajaran Penjumlahan & Pengurangan</title>
+    <style>
+        /* Mengatur desain global */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Flexbox pada body */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Membuat tinggi minimal body sesuai dengan tinggi layar */
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #ff9305;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            font-weight: normal;
+        }
+
+        /* Section konten utama */
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 0 auto;
+            flex: 1; /* Membuat konten utama fleksibel untuk menempati ruang yang tersedia */
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #ff9305;
+            border-bottom: 2px solid #a05c04e7;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #000000;
+        }
+
+        /* Responsif untuk tampilan mobile */
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
+
+        /* Responsif iframe video dan GeoGebra */
+        iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9; /* Mengatur proporsi video */
+            border: 0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer diatur dengan flexbox agar selalu di tengah halaman */
+        footer {
+            text-align: center;
+            margin: 20px auto;
+            font-size: 14px;
+            color: #000;
+            width: 100%;
+            display: flex;
+            justify-content: center; /* Menempatkan konten footer di tengah secara horizontal */
+            align-items: center; /* Menempatkan konten footer di tengah secara vertikal */
+            flex-shrink: 0; /* Memastikan footer tidak mengecil */
+        }
+        
+        button {
+            background-color: #ff9305;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a05c04e7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Media Pembelajaran Penjumlahan & Pengurangan Bilangan Bulat</h1>
+    </header>
+
+    <main>
+        <!-- Video YouTube -->
+        <section id="video">
+            <h2>Video Pembelajaran</h2>
+            <p>
+                Untuk meningkatkan pemahaman tentang materi "Penjumlahan dan Pengurangan Bilangan Bulat," silakan tonton video pembelajaran di bawah ini!
+            </p>
+            <iframe src="https://www.youtube.com/embed/CyH5p7wIWgY?si=0ATRHDc1HF8_N-_8" title="Penjumlahan dan Pengurangan Bilangan Bulat" allowfullscreen></iframe>
+        </section>
+        <br>
+
+        <!-- GeoGebra Interactive -->
+        <section id="geogebra">
+            <h2>Interaktif GeoGebra</h2>
+            <p>
+                Gunakan alat interaktif GeoGebra di bawah ini untuk memahami lebih lanjut bagaimana operasi penjumlahan dan pengurangan bilangan bulat bekerja. Anda dapat memanipulasi bilangan secara langsung dan melihat hasil operasi secara visual.
+            </p>
+            <iframe src="https://www.geogebra.org/m/bzksw4tz" title="GeoGebra - Penjumlahan dan Pengurangan"></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Materi Bilangan Bulat Alni_032</p>
+    </footer>
+
+
+</body>
+</html>
+
