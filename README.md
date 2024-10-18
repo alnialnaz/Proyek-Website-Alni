@@ -1,5 +1,3 @@
-# Proyek-Website-Alni
-Tugas Proyek Website Untuk Penilaian UTS
 <!DOCTYPE html>
 <html lang="en">
 <head>
